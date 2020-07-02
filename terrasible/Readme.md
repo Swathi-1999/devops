@@ -142,5 +142,7 @@ The Ansible playbook demo.yaml has tasks defined for the installation of Jenkins
  •	To verify the installation and configuration, Using a browser from local machine access the Public IP address of the instance with the port 8080 to connect to the Jenkins.
  
  
+ 
+ 
  •	On Successful connection, it leads to the Jenkins Home page.  
 
