@@ -15,7 +15,7 @@ In the local machine, demo.tf terraform file is created, where the provider and 
  
 The Ansible playbook demo.yaml has tasks defined for the installation of Jenkins. With both the files in the same directory, initialize and apply terraform.
  
-Execution Steps:
+      Execution Steps:
 •	Initialize the Terraform plugins (AWS)
 terraform init
 •	Validate the Terraform file (.tf).
