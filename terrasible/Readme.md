@@ -1,4 +1,6 @@
-Installing and Configuring Jenkins using Ansible and Terraform
+                           Installing and Configuring Jenkins using Ansible and Terraform
+
+
 Terraform is a tool for building infrastructure safely and efficiently. Ansible is a simple serverless configuration management tool. In this use case we create an instance in AWS EC2 with Terraform, further install and configure Jenkins using Ansible playbooks, which is invoked from Terraform.
 The Terraform specifications for the EC2 instance creation are:
 •	Region name
