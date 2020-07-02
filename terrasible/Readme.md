@@ -143,6 +143,8 @@ The Ansible playbook demo.yaml has tasks defined for the installation of Jenkins
  
  ![alt text] (https://github.com/Protontech-1803/devops/blob/master/terrasible/output1.jpg?raw=true)
  
+ ![alt text] (https://github.com/Protontech-1803/devops/blob/master/terrasible/output1.png)
+ 
  
  •	On Successful connection, it leads to the Jenkins Home page.  
 
