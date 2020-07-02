@@ -75,7 +75,7 @@ The Ansible playbook demo.yaml has tasks defined for the installation of Jenkins
           service: name=jenkins state=started
 
  
-## Execution Steps:
+### Execution Steps:
  •	Initialize the Terraform plugins (AWS)
  
     terraform init
