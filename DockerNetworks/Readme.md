@@ -14,9 +14,9 @@ This POC, illustrates an example where Containers running in different Docker ne
        
 2.	Create the containers and connect to the Docker network.
 
-       docker run -d --name <Container_Name> <Image_Name>
+        docker run -d --name <Container_Name> <Image_Name>
    
-       docker network connect <Network_Name> <Container_Name>
+        docker network connect <Network_Name> <Container_Name>
        
   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/CreateContainer1.png)
    
@@ -51,7 +51,7 @@ This POC, illustrates an example where Containers running in different Docker ne
 
     a)	Compare the Gateway of network with Bridge interface.
     
-       docker inspect <Network_Name>
+        docker inspect <Network_Name>
        
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/Gateway1.png)
     
@@ -61,14 +61,14 @@ This POC, illustrates an example where Containers running in different Docker ne
     b) Run the command ifconfig to get the bridge interface names of the network created.  
     **Note: Compare the gateway of network created to get the bridge Interface.**
     
-       ifconfig
+        ifconfig
        
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/ifconfig.png)
     
 
     c)	Set the Iptables rules for containers with bridge interface.
    
-       iptables -I DOCKER-USER -i <Bridge_Interface_Name_Network1> -o <Bridge_Interface_Name_Network2> -s <Container1_IPAddress> -d <Container2_IPAddress> -j ACCEPT
+        iptables -I DOCKER-USER -i <Bridge_Interface_Name_Network1> -o <Bridge_Interface_Name_Network2> -s <Container1_IPAddress> -d <Container2_IPAddress> -j ACCEPT
        
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/IPtable.png)
       
