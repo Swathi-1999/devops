@@ -7,7 +7,7 @@ This POC, illustrates an example where Containers running in different Docker ne
  
 1.	Create a Docker networks in a Linux Instance.
 
-       docker network create --driver bridge <Network_Name>
+         docker network create --driver bridge <Network_Name>
        
   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/CreateNetwork.png)
        
@@ -25,7 +25,7 @@ This POC, illustrates an example where Containers running in different Docker ne
 
 3.	List the Containers created.
 
-       docker ps
+        docker ps
        
   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/ContainerList.png)
 
