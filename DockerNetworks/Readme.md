@@ -15,9 +15,9 @@ This POC, illustrates an example where Containers running in different Docker ne
 2.	Create the containers and connect to the Docker network.
 
         docker run -d --name <Container_Name> <Image_Name>
-   the 
- 
+    
         docker network connect <Network_Name> <Container_Name>
+        
        
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/CreateContainer1.png)
    
@@ -42,6 +42,7 @@ This POC, illustrates an example where Containers running in different Docker ne
 5. Verify the connectivity between the containers by running the command **ping <container_ipaddress>** in the container. The Container will not be able to ping the other container.
 
        docker exec -it <Container1_ID> /bin/bash
+
 
        ping <Container2_IPAddress>
        
@@ -77,8 +78,9 @@ This POC, illustrates an example where Containers running in different Docker ne
 5. Verify the communication between the containers in different network. Now Container will be able to ping the other container.
 
        docker exec -it <Container1_ID> /bin/bash
+** ** 
 
        ping <Container2_IPAddress>
        
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/ping2.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/ping2.png)
 
