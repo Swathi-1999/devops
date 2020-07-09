@@ -44,11 +44,10 @@ This POC, illustrates an example where Containers running in different Docker ne
 5. Verify the connectivity between the containers by running the command **ping <container_ipaddress>** in the container. The Container will not be able to ping the other container.
 
        docker exec -it <Container1_ID> /bin/bash
-       
 
-       ```
+    ```
        ping <Container2_IPAddress>
-       ```
+    ```
        
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/Ping1.png)
 
