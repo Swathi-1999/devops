@@ -30,7 +30,7 @@ This POC, illustrates an example where Containers running in different Docker ne
 
         docker ps
        
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/ContainerList.png)
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/ContainerLists.png)
 
 
 
