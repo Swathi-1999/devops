@@ -8,13 +8,16 @@ This POC, illustrates an example where Containers running in different Docker ne
 1.	Create a Docker networks in a Linux Instance.
 
        docker network create --driver bridge <Network_Name>
-
-
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+       
+       
 2.	Create the containers and connect to the Docker network.
 
        docker run -d --name <Container_Name> <Image_Name>
+       
 
        docker network connect <Network_Name> <Container_Name>
+       
 
 
 
