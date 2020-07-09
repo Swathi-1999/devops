@@ -1,6 +1,7 @@
 # Communication Between Docker Containers in Different Networks
 
 
+
 This POC, illustrates an example where Containers running in different Docker networks are able to communicate with each other by adding the **Iptables Rules** to DOCKER-USER chain.
 
 **The following are the steps followed in the example:**
@@ -15,7 +16,7 @@ This POC, illustrates an example where Containers running in different Docker ne
 2.	Create the containers and connect to the Docker network.
 
         docker run -d --name <Container_Name> <Image_Name>
-        
+
         docker network connect <Network_Name> <Container_Name>
         
         
