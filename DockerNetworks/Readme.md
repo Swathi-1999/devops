@@ -15,7 +15,9 @@ This POC, illustrates an example where Containers running in different Docker ne
        
 2.	Create the containers and connect to the Docker network.
 
+        ```
         docker run -d --name <Container_Name> <Image_Name>
+        ```
 
         ```
         docker network connect <Network_Name> <Container_Name>
