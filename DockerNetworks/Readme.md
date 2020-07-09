@@ -78,9 +78,9 @@ This POC, illustrates an example where Containers running in different Docker ne
 5. Verify the communication between the containers in different network. Now Container will be able to ping the other container.
 
        docker exec -it <Container1_ID> /bin/bash
-** ** 
 
        ping <Container2_IPAddress>
        
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/ping2.png)
+       
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/ping2.png)
 
