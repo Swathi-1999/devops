@@ -46,7 +46,7 @@ This POC, illustrates an example where Containers running in different Docker ne
        docker exec -it <Container1_ID> /bin/bash
 
     ```
-       ping <Container2_IPAddress>
+     ping <Container2_IPAddress>
     ```
        
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerNetworks/Ping1.png)
