@@ -2,10 +2,11 @@
 
 The POC shows how to connect to OCI instance Gnome Desktop using the OCI Cloud Shell and VNC Viewer. 
 
-**Steps to connect OCI Instance Desktop from the OCI Cloud Shell **
+**Steps to connect OCI Instance Desktop from the OCI Cloud Shell**
 
 1.	Create a Virtual Cloud Network in the OCI to create an instance. [VCNcreation]
  
+  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
 
 2.	Create a Network Security Group in VNC to open up the CIDR ports. {Network_sg }
  
