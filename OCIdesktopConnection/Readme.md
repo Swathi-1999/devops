@@ -53,9 +53,9 @@ The POC shows how to connect to OCI instance Gnome Desktop using the OCI Cloud S
 
         sudo bash
 
-        ```
-        cp /lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@\:1.service
-        ```
+      ```
+      cp /lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@\:1.service
+      ```
 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/VNCserverFile.png)
  
