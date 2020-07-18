@@ -5,7 +5,7 @@ The POC shows how to connect to OCI instance Gnome Desktop using the OCI Cloud S
 
 **Steps to connect OCI Instance Desktop from the OCI Cloud Shell**
 
-1.	Create a Virtual Cloud Network in the OCI to create an instance.
+**1.**	Create a Virtual Cloud Network in the OCI to create an instance.
 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/VNCcreation.png)
 
