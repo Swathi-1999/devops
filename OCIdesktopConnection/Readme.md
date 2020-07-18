@@ -45,7 +45,7 @@ The POC shows how to connect to OCI instance Gnome Desktop using the OCI Cloud S
  
 9.	Configure the VNC password, when prompted enter password and verify it.
 
-       vncpasswd
+        vncpasswd
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/VNCpassword.png)
  
