@@ -18,7 +18,7 @@ The POC shows how to connect to OCI instance Gnome Desktop using the OCI Cloud S
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/Network_sgCreate.png)
   
-**4.**	Create the instance by adding the Network Security Group in the VCN.
+4.	Create the instance by adding the Network Security Group in the VCN.
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/CreateInstance.png)
  
