@@ -27,19 +27,19 @@ The POC shows how to connect to OCI instance Gnome Desktop using the OCI Cloud S
  
 6.	SSH to the instance created with the Public IP address and the private key.
 
-       ssh -i <privateKey_FilePath> opc@<PublicIP_Address>
+        ssh -i <privateKey_FilePath> opc@<PublicIP_Address>
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/SSH.png)
  
 7.	Install the GNOME desktop in the VM instance.
 
-       yum groups install "Server with GUI"
+        yum groups install "Server with GUI"
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/GNOME_desktop.png)
  
 8.	Install the tigervnc-server to allow access to the desktop.
 
-       yum -y install tigervnc_server
+        yum -y install tigervnc_server
 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/tigervnc_server.png)
  
@@ -80,14 +80,20 @@ The POC shows how to connect to OCI instance Gnome Desktop using the OCI Cloud S
 14.	Execute the commands to reload the system daemon and to enable the VNC service as shown below.
 
         systemctl daemon-reload
-        systemctl enable vncserver@\:1.service
+
+      ```
+      systemctl enable vncserver@\:1.service
+      ```
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/systemctl_enable.png)
  
 15.	Execute the commands to start the VNC service and to check the status of the VNC service as shown.
 
         systemctl start vncserver@\:1.service
-        systemctl status vncserver@\:1.service
+        
+      ```
+      systemctl status vncserver@\:1.service
+      ```
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/systemctl_start.png)
  
