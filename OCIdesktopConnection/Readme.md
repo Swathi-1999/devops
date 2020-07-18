@@ -7,17 +7,17 @@ The POC shows how to connect to OCI instance Gnome Desktop using the OCI Cloud S
 
 **1.**	Create a Virtual Cloud Network in the OCI to create an instance.
 
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/VNCcreation.png)
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/VNCcreation.png)
 
-2.	Create a Network Security Group in VNC to open up the CIDR ports.
+**2.**	Create a Network Security Group in VNC to open up the CIDR ports.
 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/Network_sg.png)
  
-3.	The Network Security Groups is created successfully and opened the CIDR ports.
+**3.**	The Network Security Groups is created successfully and opened the CIDR ports.
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/Network_sgCreate.png)
   
-4.	Create the instance by adding the Network Security Group in the VCN.
+**4.**	Create the instance by adding the Network Security Group in the VCN.
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OCIdesktopConnection/OCIdesktopPNG/CreateInstance.png)
  
