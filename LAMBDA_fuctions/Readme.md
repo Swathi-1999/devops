@@ -53,10 +53,14 @@ This POC illustrates how to invoke the lambda function using the API Gateway.
     $ aws apigateway put-method --rest-api-id a2a7463zwa --resource-id dzx0a0 --http-method GET --authorization-type "NONE" --no-api-key-required --request-parameters "method.request.header.custom-header=false"
     
  v)	Configure the method to invoke lambda function using AWS console
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/LAMBDA_fuctions/Config.png)
+ 
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/LAMBDA_fuctions/Config.png)
+    
  
  vi)	Test the API and invoke the lambda function from AWS Console.
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/LAMBDA_fuctions/test_api.png)
+ 
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/LAMBDA_fuctions/test_api.png)
+    
 
  
 
