@@ -3,7 +3,7 @@
 
 This POC illustrates how to invoke the lambda function using the API Gateway.
 
-**1.	Steps to create a Simple lambda function.
+**1.	Steps to create a Simple lambda function.**
 
   i)	Create a lambda role using below command
 
@@ -34,7 +34,7 @@ This POC illustrates how to invoke the lambda function using the API Gateway.
     --zip-file fileb://function.zip --handler index.handler --runtime nodejs12.x \
     --role arn:aws:iam::951939890788:role/lambda-ex
     
-**2.	Perform following steps to create API
+**2.	Perform following steps to create API**
 
  i)	Create an API using the following command
 
