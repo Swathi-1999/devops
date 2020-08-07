@@ -11,7 +11,7 @@ This POC illustrates how to invoke the lambda function using the API Gateway.
     
    ii)	Add basic execution permission to the role 
 
-          $ aws iam attach-role-policy --role-name lambda-ex --policy-arn arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+        $ aws iam attach-role-policy --role-name lambda-ex --policy-arn arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
     
    iii)	Create an index.js file with below code and save the file
 
