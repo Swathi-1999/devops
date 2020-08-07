@@ -59,7 +59,7 @@ This POC illustrates how to invoke the lambda function using the API Gateway.
  
  vi)	Test the API and invoke the lambda function from AWS Console.
  
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/LAMBDA_fuctions/test_api.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/LAMBDA_fuctions/test_API.png)
     
 
  
