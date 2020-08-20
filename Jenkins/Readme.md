@@ -15,7 +15,7 @@ The following are the steps to build a Java application from GitHub repository u
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/PipelineScript.jpg)
   
-      a.	Generate the Pipeline Syntax for Git credentials, URL of GitHub repository and Maven, by following the Pipeline Syntax Link.
+      a.	Generate the 	**Pipeline Syntax** for Git credentials, URL of GitHub repository and Maven, by following the Pipeline Syntax Link.
     
       b.	Use the Pipeline syntax generated values in the Pipeline script.
       
