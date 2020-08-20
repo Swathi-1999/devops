@@ -21,18 +21,24 @@ The following are the steps to build a Java application from GitHub repository u
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/PipelineScript.jpg)
      
 7.	To build the Application, use Build Now option in Jenkins and verify in the console that the application with .war file is built successfully
- 
+
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/CompletePipelineScript.jpg)
 
 
+8.	Add the URL of GitHub repository and check GitHub hook trigger for polling in Configure page.
 
-8.	Add the URL of GitHub repository and check GitHub hook trigger for polling in Configure page
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/Polling.jpg)
  
 9.	In the GitHub repository, create Webhooks by providing the URL of Jenkins in “Payload URL” textbox.
+       
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/Webhook.jpg)
  
-
 10.	Create README.md file with some sample text in it and Commit changes or update any files in GitHub repository
- 
+          ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/ReadMe.jpg)
 
 11.	Navigate and verify the updates of the Application.
+            
+       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/Changes.jpg)
+
  
 
