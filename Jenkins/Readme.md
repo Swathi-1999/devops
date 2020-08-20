@@ -34,7 +34,7 @@ The following are the steps to build a Java application from GitHub repository u
        
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/Webhook.jpg)
  
-10.	Create README.md file with some sample text in it and Commit changes or update any files in GitHub repository
+10.	Create README.md file with some sample text in it and **Commit changes** or update any files in GitHub repository
           ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/ReadMe.jpg)
 
 11.	Navigate and verify the updates of the Application.
