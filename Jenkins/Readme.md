@@ -21,7 +21,7 @@ The following are the steps to build a Java application from GitHub repository u
       
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/CompletePipelineScript.jpg)
      
-7.	To build the Application, use Build Now option in Jenkins and verify in the console that the application with .war file is built successfully
+7.	To build the Application, use **Build Now** option in Jenkins and verify in the console that the application with .war file is built successfully
 
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/BuildApplication.jpg)
 
