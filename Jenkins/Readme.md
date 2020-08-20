@@ -8,12 +8,15 @@ The following are the steps to build a Java application from GitHub repository u
 4.	Install suggested plugins and get started with Jenkins by creating the user.
 5.	Create Job by choosing pipeline.
  
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/Pipeline.jpg)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/Pipeline.jpg)
 
 6.	Write the pipeline script to integrate Jenkins with GitHub and Maven to build Java application.
- 
-a.	Generate the Pipeline Syntax for Git credentials, URL of GitHub repository and Maven, by following the Pipeline Syntax Link.
-b.	Use the Pipeline syntax generated values in the Pipeline script.
+  
+  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Jenkins/PipelineScript.jpg)
+  
+  a.	Generate the Pipeline Syntax for Git credentials, URL of GitHub repository and Maven, by following the Pipeline Syntax Link.
+  
+  b.	Use the Pipeline syntax generated values in the Pipeline script.
   
 7.	To build the Application, use Build Now option in Jenkins and verify in the console that the application with .war file is built successfully
  
