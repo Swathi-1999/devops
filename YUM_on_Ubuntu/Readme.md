@@ -1,15 +1,19 @@
 # Installation of YUM on UBUNTU Instance
 
+
 The YUM is a package management utility for Red Hat based systems such as RHEL or CentOS. It is mainly used to manage RPM packages. Ubuntu has its own package management system. The equivalent tool for Ubuntu is apt, this is used to install or manage packages on Ubuntu.
+
 
 **Steps to install YUM on UBUNTU instance, they are:**
 
-1.	First update the apt package manager.
+1.	First update the **apt** package manager.
+
+       sudo apt update -y
 
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/YUM_on_Ubuntu/YUM_on_Ubuntu-PNG/Update_apt.png)
  
 
-2.	To install yum and other tools for the creation of a repo, install the yum-utils using apt.
+2.	To install yum and other tools for the creation of a repo, install the **yum-utils** using apt.
 
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/YUM_on_Ubuntu/YUM_on_Ubuntu-PNG/Install_YUM.png)
  
@@ -34,12 +38,12 @@ The YUM is a package management utility for Red Hat based systems such as RHEL o
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/YUM_on_Ubuntu/YUM_on_Ubuntu-PNG/Enable_Repository.png)
  
 
-7.	After the enable is successful, test the repository by installing the nginx package as shown.
+7.	After the enable is successful, test the repository by installing the **nginx** package as shown.
 
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/YUM_on_Ubuntu/YUM_on_Ubuntu-PNG/Install_nginx.png)
  
 
-8.	Now, list all the packages in yum repository with the below command.
+8.	Now, list all the packages in **yum** repository with the below command.
 
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/YUM_on_Ubuntu/YUM_on_Ubuntu-PNG/List_YUM_Packages.png)
     
