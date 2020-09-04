@@ -25,7 +25,7 @@ The YUM is a package management utility for Red Hat based systems such as RHEL o
         yum search nginx
                 
       ```
-        yum list all
+       yum list all
       ```
 
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/YUM_on_Ubuntu/YUM_on_Ubuntu-PNG/Test_YUM.png)
