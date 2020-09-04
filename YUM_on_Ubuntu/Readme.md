@@ -8,7 +8,7 @@ The YUM is a package management utility for Red Hat based systems such as RHEL o
 
 1.	First update the **apt** package manager.
 
-       sudo apt update -y
+        sudo apt update -y
 
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/YUM_on_Ubuntu/YUM_on_Ubuntu-PNG/Update_apt.png)
  
