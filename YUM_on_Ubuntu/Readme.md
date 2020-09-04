@@ -15,6 +15,8 @@ The YUM is a package management utility for Red Hat based systems such as RHEL o
 
 2.	To install yum and other tools for the creation of a repo, install the **yum-utils** using apt.
 
+       sudo apt install -y yum-utils
+
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/YUM_on_Ubuntu/YUM_on_Ubuntu-PNG/Install_YUM.png)
  
 
