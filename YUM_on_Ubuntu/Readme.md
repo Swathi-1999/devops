@@ -24,9 +24,11 @@ The YUM is a package management utility for Red Hat based systems such as RHEL o
 
         yum search nginx
         
+        
         ```
         
         yum list all
+        
         
         ```
 
