@@ -24,7 +24,8 @@ The following steps to enable pod security policy which includes creating resour
 **7.	Create cluster role and cluster role binding for the policy.**
 ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Kubernetes-Pod-security-policy/psp7.jpg)
 
-**8.	Delete the privileged policy.**
+**8.	Delete the privileged policy.** 
+##### Note: Privilege permission do not let the restrict policy to apply on kuberntes-admin use.
 
 ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Kubernetes-Pod-security-policy/psp8.jpg)
 
