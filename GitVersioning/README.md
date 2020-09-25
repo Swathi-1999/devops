@@ -40,13 +40,13 @@ The following are the steps to control the version of source code in GitHub Priv
     
     a.	Paste the commit ID of simple.html file and run checkout command.
     
-        ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GitVersioning/Checkout.jpg) 
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GitVersioning/Checkout.jpg) 
 
     b.	Download the simple.html file older version into the instance using git push command.
     
-        ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GitVersioning/Push_File2.jpg) 
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GitVersioning/Push_File2.jpg) 
         
     c.	Verify the simple.html older file as shown below.
     
-        ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GitVersioning/Simple_File2.jpg) 
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GitVersioning/Simple_File2.jpg) 
       
