@@ -1,11 +1,16 @@
-# Git Versioning in Private Repository
+# Git Versioning in Private Repository#
 
 This POC illustrates how to track the changes of source code present in GitHub private repository.
 
-The following are the steps to control the version of source code in GitHub Private repository:
+
+**The following are the steps to control the version of source code in GitHub Private repository:**
+
 1.	Create a Private Repository in GitHub account and copy the URL of Private repository for further use.
+
 2.	Create an Instance in AWS and connect with the instance by providing the SSH command.
+
 3.	Create a Linux user account in using Linux command.
+
 4.	Push the application file into the GitHub private repository.
     
     a.	Create an authorized key for authenticating the user in the terminal by adding the SSH public key.
@@ -28,7 +33,7 @@ The following are the steps to control the version of source code in GitHub Priv
 5.	Verify the file is uploaded in GitHub account by reloading the page.
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GitVersioning/Repo_firstcommit.jpg) 
 
-6.	Modify the file, add the remote and push the file to GitHub private repository
+6.	Modify the file, add the remote and push the file to GitHub private repository.
 
 7.	Verify the updated version of a source code that is pushed in the GitHub repository.
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GitVersioning/Repo_secondcommit.jpg) 
