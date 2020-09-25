@@ -1,4 +1,4 @@
-# Git Versioning in Private Repository#
+# Git Versioning in Private Repository #
 
 This POC illustrates how to track the changes of source code present in GitHub private repository.
 
