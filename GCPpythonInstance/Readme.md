@@ -10,22 +10,22 @@ The Python client libraries are used to create an instance in the GCP by accessi
 
 2.	Create Bucket in the Storage Browser for the instance to be created in the respective project.
 
-     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateProject.png)
+     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateBucket.png)
  
 3.	In the cloud shell execute gcloud init command and Authorize to initialize the cloud shell as shown below.
 
-      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateProject.png)
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/AuthorizeCloudShell.png)
  
 
 4.	In the Cloud Shell create a file startup-script.sh using vi editor as shown below to configure the project settings.
 
-      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateProject.png)
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/StartupScript.png)
 
      
 
 5.	Create a file create.py using vi editor in the cloud shell to create VM instance as shown below.
 
-      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateProject.png)
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateInstanceCodeSnippet.png)
 
    
  
@@ -35,16 +35,17 @@ The Python client libraries are used to create an instance in the GCP by accessi
         python3 create.py <ProjectID> <Bucket_Name>
 
  
-      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateProject.png)
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/ExecuteCreateInstanceCode.png)
+      
 
 7.	On execution process it displays the project name, instance name, zone and the URL for the compute instance as shown below.
 
-      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateProject.png)
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/ExecutionMessage.png)
  
 
 8.	On successful execution it creates the compute instance in the GCP in a given zone as shown below.
 
-      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateProject.png)
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/InstanceCreated.png)
  
 
 
