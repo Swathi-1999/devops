@@ -4,11 +4,11 @@ The Python client libraries are used to create an instance in the GCP by accessi
 
 **Steps to create compute Instance in GCP using Python Client Libraries, and they are:**
 
-1.	Initially create a project in the GCP to create instance as shown below.
+1.	Initially create a project in the **GCP** to create instance as shown below.
 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateProject.png)
 
-2.	Create Bucket in the Storage Browser for the instance to be created in the respective project.
+2.	Create Bucket in the **Storage Browser** for the instance to be created in the respective project.
 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/CreateBucket.png)
  
@@ -17,7 +17,7 @@ The Python client libraries are used to create an instance in the GCP by accessi
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/GCPpythonInstance/GCPpythonInstancePNG/AuthorizeCloudShell.png)
  
 
-4.	In the Cloud Shell create a file startup-script.sh using vi editor as shown below to configure the project settings.
+4.	In the Cloud Shell create a file **startup-script.sh** using vi editor as shown below to configure the project settings.
 
           #!/bin/bash
 
@@ -51,7 +51,7 @@ The Python client libraries are used to create an instance in the GCP by accessi
 
      
 
-5.	Create a file create.py using vi editor in the cloud shell to create VM instance as shown below.
+5.	Create a file **create.py** using vi editor in the cloud shell to create VM instance as shown below.
 
           import argparse
           import os
@@ -223,7 +223,7 @@ The Python client libraries are used to create an instance in the GCP by accessi
    
  
 
-6.	Execute the command as shown below to create the compute instance in the GCP by passing the arguments ProjectID and Bucket name.
+6.	Execute the command as shown below to create the **compute instance** in the GCP by passing the arguments **ProjectID** and **Bucket name**.
 
         python3 create.py <ProjectID> <Bucket_Name>
 
