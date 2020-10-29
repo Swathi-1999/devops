@@ -107,7 +107,7 @@ e.	Run the following command, replacing ClusterArn with the Amazon Resource Name
  
 f.	Change the Directory to the kafka_2.12-2.2.1/bin and run the below command to create a topic. Replace the Zookeeper connection string copied in previous output.
   
-    $ ./kafka-topics.sh --create --zookeeper ZookeeperConnectString --replication-factor 2 --partitions 1 --topic MyTopic
+    $ ./kafka-topics.sh --create --zookeeper <ZookeeperConnectString> --replication-factor 2 --partitions 1 --topic MyTopic
     
  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/21.png)
  
