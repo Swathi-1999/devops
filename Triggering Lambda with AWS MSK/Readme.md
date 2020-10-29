@@ -3,6 +3,8 @@ This POC illustrate to setup, test Amazon MSK cluster, and configure key element
 
 Lambda is a consumer application for the Kafka topic. MSK cluster processes records from one or more partitions and sends the payload to the target function. Lambda continues to process batches until there are no more messages in the topic.
 
+![Alt text]https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/Picture15.png
+
 ## Follow the below steps to Integrate AWS MSK with Lambda function.
 #### 1.	To Setup MSK Cluster create a VPC with two private subnet in different availability zones associated with a NAT gateway with access to internet and a public subnet with internet gateway.
 
