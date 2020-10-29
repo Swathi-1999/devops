@@ -32,7 +32,7 @@ e.	Change the Route table of the public-subnet to the route table associated wit
 
  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/4.png)
  
-g.	Attach NAT gateway to the private subnet route table.
+g.	Attach NAT gateway to the route table (Main) of private subnet .
 
  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/5.png)
  
