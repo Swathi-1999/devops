@@ -89,7 +89,7 @@ b.	Run the below command to download Apache Kafka.
  
 c.	Run the following command to Untar the download apache kafka file.
 
-    $tar -xzf kafka_2.12-2.2.1.tgz
+    $ tar -xzf kafka_2.12-2.2.1.tgz
     
  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/18.png)
  
@@ -143,7 +143,7 @@ a.	Run the Following command to use the JVM truststore to talk to the MSK cluste
  
 b.	Create a file named client.properties in the bin directory of the Apache kafka and paste the content given below.
 
-    $vi client.properties
+    $ vi client.properties
 
     security.protocol=SSL
     ssl.truststore.location=/tmp/kafka.client.truststore.jks
