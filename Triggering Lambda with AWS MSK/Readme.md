@@ -20,21 +20,22 @@ c.	Copy the route table (main) ID of private-subnet-1 and Edit the Route table o
 
  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/3.png)
  
-d.	Create a NAT gateway and associate it with the Public-subnet.
-
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/4.png)
- 
-e.	Attach NAT gateway to the private subnet route table.
-
- ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/5.png)
- 
-f.	Create a Public subnet within the VPC.
+d.	Create a Public subnet within the VPC.
 
  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/6.png)
  
-g.	Change the Route table of the public-subnet to the route table associated with Internet gateway.
+e.	Change the Route table of the public-subnet to the route table associated with Internet gateway.
 
  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/7.png)
+ 
+ f. Create a NAT gateway and associate it with the Public-subnet.
+
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/4.png)
+ 
+g.	Attach NAT gateway to the private subnet route table.
+
+ ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Triggering%20Lambda%20with%20AWS%20MSK/images/5.png)
+ 
  
 **2.	Create an AWS MSK cluster within the newly create VPCs private subnets.**
 
