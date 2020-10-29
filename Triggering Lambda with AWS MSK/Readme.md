@@ -1,5 +1,5 @@
 # Trigger Lambda function using AWS MSK
-This POC illustrate to setup, test Amazon MSK cluster, and configure key elements in the networking configuration. This POC also explain to create a Lambda function that will invoked by messages in Amazon MSK topics.
+This POC illustrates on how to setup Amazon MSK cluster and configure key elements in the networking configuration. Further, it also explain on how to create a Lambda function that will be invoked by messages in Amazon MSK topics.
 
 Lambda is a consumer application for the Kafka topic. MSK cluster processes records from one or more partitions and sends the payload to the target function. Lambda continues to process batches until there are no more messages in the topic.
 
