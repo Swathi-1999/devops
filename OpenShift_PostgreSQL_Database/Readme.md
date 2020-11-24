@@ -7,9 +7,13 @@ Run a PostgreSQL database with persistent storage on OpenShift by accessing the 
 
 1.	Create a new project called myproject in the OpenShift cluster using the OpenShift CLI.
 
+          oc new-project myproject
+
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OpenShift_PostgreSQL_Database/OpenShift_PostgreSQL_DatabasePNG/myproject.png)
  
 2.	Run the below command to create a PostgreSQL database which is used to connect. This will start an instance of a PostgreSQL Database.
+
+          oc new-app postgresql-ephemeral --name database --param DATABASE_SERVICE_NAME=database --param POSTGRESQL_DATABASE=sampledb --param POSTGRESQL_USER=username --param POSTGRESQL_PASSWORD=password
 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OpenShift_PostgreSQL_Database/OpenShift_PostgreSQL_DatabasePNG/createDatabase.png)
  
@@ -20,9 +24,13 @@ Run a PostgreSQL database with persistent storage on OpenShift by accessing the 
  
 4.	To monitor progress as the database is deployed and made ready, run the below shown command. This will exit when the database is ready to be used.
 
+          oc rollout status dc/database
+
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OpenShift_PostgreSQL_Database/OpenShift_PostgreSQL_DatabasePNG/rolloutStatus.png)
  
 5.	Run the below shown command to list the details of the pod which is running the database.
+
+          oc get pods --selector name=database
 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OpenShift_PostgreSQL_Database/OpenShift_PostgreSQL_DatabasePNG/databaseRunning.png)
   
@@ -32,9 +40,13 @@ Run a PostgreSQL database with persistent storage on OpenShift by accessing the 
  
 7.	To get the reference name of the pod, capture the name of the pod in an environment variable by running the command shown below.
 
+          POD=`oc get pods --selector name=database -o custom-columns=NAME:.metadata.name --no-headers`; echo $POD
+
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OpenShift_PostgreSQL_Database/OpenShift_PostgreSQL_DatabasePNG/PodName.png)
  
 8.	Create an interactive shell within the same container running the database, using the oc rsh command by supplying the name of the pod as shown below.
+
+          oc rsh $POD
 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OpenShift_PostgreSQL_Database/OpenShift_PostgreSQL_DatabasePNG/interactiveShell.png)
  
@@ -43,6 +55,8 @@ Run a PostgreSQL database with persistent storage on OpenShift by accessing the 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OpenShift_PostgreSQL_Database/OpenShift_PostgreSQL_DatabasePNG/containersInDatabase.png)
  
 10.	Run the database client for the database provided in the container. For PostgreSQL, use the psql command.
+
+          psql sampledb username
 
      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/OpenShift_PostgreSQL_Database/OpenShift_PostgreSQL_DatabasePNG/psqlDatabase.png)
  
