@@ -1,7 +1,7 @@
-# Deploy Kibana in AWS EKS
-This POC illustrates how to deploy Kibana in AWS Elastic Kubernetes service. Kibana is a data visualization dashboard for Elasticsearch. It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster.
+# Deploying Kibana on AWS EKS
+This POC illustrates how to deploy Kibana on AWS Elastic Kubernetes service. Kibana is a data visualization dashboard for Elasticsearch. It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster.
 
-** The following steps to deploy Kibana in AWS EKS and assume you already have a cluster.**
+** The following steps to deploy Kibana on AWS EKS and assume you already have a cluster.**
 
 
 ** 1.	Run the following command to list the worker nodes **
