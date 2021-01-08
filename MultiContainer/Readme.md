@@ -40,15 +40,24 @@ Deploy the pod with two containers in it, where container1 running the ngnix app
             args: ["-c", "echo Hello from the debian container > /pod-data/index.html"]
 
 3. Execute the command shown below to create the Pod in the Kubernetes cluster as shown below with two containers.
- 
+   
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MultiContainer/MultiContainer_PNG/deployPod.png)
+    
 
 4. To list the Pods created in the cluster, run the kubectl get command as shown below.
  
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MultiContainer/MultiContainer_PNG/listPods.png)
+    
 
 5. Run the below shown command to connect to the nginx Container of the Pod running in Kubernetes cluster.
  
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MultiContainer/MultiContainer_PNG/connecToContainer.png)
+    
 
 6. Run the curl command to fetch the output from the debian Container created in the Kubernetes cluster as shown below.
+
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MultiContainer/MultiContainer_PNG/communicateBetweenContainers.png)
+    
  
 
 
