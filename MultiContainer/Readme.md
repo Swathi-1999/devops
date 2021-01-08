@@ -6,37 +6,38 @@ Deploy the pod with two containers in it, where container1 running the ngnix app
 
 1.	Using Vi Editor create a file as shown below, to create a pod to communicate between containers in the same pod in the Kubernetes cluster.
     
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MultiContainer/MultiContainer_PNG/YAML_file.png)
  
 
 2. Copy the below code and paste it in the Vi Editor and save the file.
-apiVersion: v1
-kind: Pod
-metadata:
-  name: two-containers
-spec:
 
-  restartPolicy: Never
+        apiVersion: v1
+        kind: Pod
+        metadata:
+          name: two-containers
+        spec:
 
-  volumes:
-  - name: shared-data
-    emptyDir: {}
+          restartPolicy: Never
 
-  containers:
+          volumes:
+          - name: shared-data
+            emptyDir: {}
 
-  - name: nginx-container
-    image: nginx
-    volumeMounts:
-    - name: shared-data
-      mountPath: /usr/share/nginx/html
+          containers:
 
-  - name: debian-container
-    image: debian
-    volumeMounts:
-    - name: shared-data
-      mountPath: /pod-data
-    command: ["/bin/sh"]
-    args: ["-c", "echo Hello from the debian container > /pod-data/index.html"]
+          - name: nginx-container
+            image: nginx
+            volumeMounts:
+            - name: shared-data
+              mountPath: /usr/share/nginx/html
+
+          - name: debian-container
+            image: debian
+            volumeMounts:
+            - name: shared-data
+              mountPath: /pod-data
+            command: ["/bin/sh"]
+            args: ["-c", "echo Hello from the debian container > /pod-data/index.html"]
 
 3. Execute the command shown below to create the Pod in the Kubernetes cluster as shown below with two containers.
  
