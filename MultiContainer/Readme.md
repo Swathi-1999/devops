@@ -1,6 +1,6 @@
-# Communicate between Containers in same Pod using a Shared Volume in Kubernetes Cluster
+# Communicate Between Containers In Same Pod Using A Shared Volume in Kubernetes Cluster
 
-Deploy the pod with two containers in it, where container1 running the ngnix application and container2 running debian. Both the containers use the Shared Volume in the cluster. On successful deployment of the pod connect to the nginx container and fetch the output from the debian container in the Kubernetes cluster.
+Deploy the pod with two containers in it, where container1 running the **ngnix** application and container2 running **debian**. Both the containers use the Shared Volume in the cluster. On successful deployment of the pod connect to the **nginx** container and fetch the output from the **debian** container in the Kubernetes cluster.
 
 **Steps to Communicate between Containers in same Pod using a Shared Volume are:**
 
@@ -49,12 +49,12 @@ Deploy the pod with two containers in it, where container1 running the ngnix app
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MultiContainer/MultiContainer_PNG/listPods.png)
     
 
-5. Run the below shown command to connect to the nginx Container of the Pod running in Kubernetes cluster.
+5. Run the below shown command to connect to the **nginx Container** of the Pod running in Kubernetes cluster.
  
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MultiContainer/MultiContainer_PNG/connecToContainer.png)
     
 
-6. Run the curl command to fetch the output from the debian Container created in the Kubernetes cluster as shown below.
+6. Run the curl command to fetch the output from the **debian Container** created in the Kubernetes cluster as shown below.
 
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/MultiContainer/MultiContainer_PNG/communicateBetweenContainers.png)
     
