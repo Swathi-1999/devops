@@ -6,8 +6,12 @@ To build a master-slave configuration on a Jenkins instance create two AWS EC2 i
 
 1.	Create two EC2 instance in AWS console, one for master node and other as agent-node (slave node).
 Note: Master node instance is installed with Jenkins.
+
+  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
  
 2.	Connect to Jenkins dashboard with the user credentials.
+
+  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
  
 3.	Enable the Java Network Launch Protocol (JNLP) port in Jenkins instance.
 a.	Navigate to Manage Jenkins and select Configure Global Security under Security as shown below.
