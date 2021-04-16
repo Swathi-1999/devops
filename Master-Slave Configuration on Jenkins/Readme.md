@@ -7,7 +7,7 @@ To build a master-slave configuration on a Jenkins instance create two AWS EC2 i
 1.	Create two EC2 instance in AWS console, one for master node and other as agent-node (slave node).
 Note: Master node instance is installed with Jenkins.
 
-  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Master-Slave%20Configuration%20on%20Jenkins/JPG%20images/1.jpgg)
+  ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Master-Slave%20Configuration%20on%20Jenkins/JPG%20images/1.jpg)
  
 2.	Connect to Jenkins dashboard with the user credentials.
 
