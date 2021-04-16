@@ -1,6 +1,9 @@
-Distributed Build Master-Slave Configuration on Jenkins Instance 
+# Distributed Build Master-Slave Configuration on Jenkins Instance 
+
 To build a master-slave configuration on a Jenkins instance create two AWS EC2 instances as master and agent nodes. Where master node is installed with the Jenkins in it. Further, open up the ports in Jenkins instance to connect to the agent node and master node. Configure the agent node to connect to the master node for communication. On successful connection, build a job on agent node from the master node.
-Steps to Build the Master-Slave Configuration on Jenkins Instance are:
+
+**Steps to Build the Master-Slave Configuration on Jenkins Instance are:**
+
 1.	Create two EC2 instance in AWS console, one for master node and other as agent-node (slave node).
 Note: Master node instance is installed with Jenkins.
  
