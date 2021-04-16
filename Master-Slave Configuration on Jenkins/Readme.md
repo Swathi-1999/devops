@@ -14,6 +14,7 @@ Note: Master node instance is installed with Jenkins.
   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Master-Slave%20Configuration%20on%20Jenkins/JPG%20images/2.jpg)
  
 3.	Enable the Java Network Launch Protocol (JNLP) port in Jenkins instance.
+
     a.	Navigate to Manage Jenkins and select Configure Global Security under Security as shown below.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Master-Slave%20Configuration%20on%20Jenkins/JPG%20images/3a.jpg)
@@ -24,6 +25,7 @@ Note: Master node instance is installed with Jenkins.
  
 
 4.	To create an agent node (Slave node) in the Jenkins instance.
+
     a.	Navigate to Manage Jenkins and select Manage Nodes and Clouds under Security Configuration.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Master-Slave%20Configuration%20on%20Jenkins/JPG%20images/4a.jpg)
@@ -51,6 +53,7 @@ Note: Master node instance is installed with Jenkins.
  
 
 5.	Provision the Agent node created in the Jenkins instance.
+
     a.	Click on the new agent node created and to connect to the agent node download the agent.jar file and slave-agent.jnlp file.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Master-Slave%20Configuration%20on%20Jenkins/JPG%20images/5a.jpg)
@@ -61,6 +64,7 @@ Note: Master node instance is installed with Jenkins.
  
 
 6.	Launch agent.jar in the agent-node instance to establish the connection to the master node.
+
     a.	In Jenkins click on the agent node and copy the code to connect as shown below.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Master-Slave%20Configuration%20on%20Jenkins/JPG%20images/6a.jpg)
@@ -78,6 +82,7 @@ Note: Master node instance is installed with Jenkins.
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Master-Slave%20Configuration%20on%20Jenkins/JPG%20images/6c.jpg)
  
 7.	Create a new job to be executed on the agent node in Jenkins.
+
     a.	In Jenkins Dashboard, navigate to main menu and select New item. Enter the name for the job, select Freestyle project and click OK.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/Master-Slave%20Configuration%20on%20Jenkins/JPG%20images/7a.jpg)
