@@ -14,6 +14,7 @@ To deploy a Docker container with Jenkins, create a EC2 instances and install th
  
 
 3.	Install Docker on the Linux instance where the Jenkins is installed.
+
     a.	Open the Linux instance terminal and install the Docker in the Linux instance as shown below.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/3a-1.jpg)
@@ -47,6 +48,7 @@ To deploy a Docker container with Jenkins, create a EC2 instances and install th
 
 
 5.	Create a Docker Pipeline Job on Jenkins instance using the GitHub repository.
+
     a.	Open the GitHub repository were the required **Jenkinsfile** is present.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/5a.jpg)
@@ -78,6 +80,7 @@ To deploy a Docker container with Jenkins, create a EC2 instances and install th
       
  
 6.	Build the Docker-CI-Pipeline job.
+
     a.	Job is created successfully, click Build Now to execute the pipeline. Click on build created under Build History as shown below.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/6a.jpg)
