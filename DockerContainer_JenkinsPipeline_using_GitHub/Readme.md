@@ -1,7 +1,9 @@
-Deploying Docker Container with Jenkins Pipeline Using GitHub
+# Deploying Docker Container with Jenkins Pipeline Using GitHub
 
-To deploy a Docker container with Jenkins, create a EC2 instances and install the Jenkins. Further connect to this EC2 instance terminal and install Docker. And then add the Docker pipeline plugin to the Jenkins. Create the Job to connect to the GitHub repository by providing the URL where the Jenkinsfile is written in the Groovy script. On successful creation of the Jenkins pipeline job for Docker, build the job and verify the Console output.
-Steps to Deploy the Docker Container with Jenkins Pipeline using GitHub repository are:
+To deploy a Docker container with Jenkins, create a EC2 instances and install the Jenkins. Further connect to this EC2 instance terminal and install Docker. And then add the Docker pipeline plugin to the Jenkins. Create the Job to connect to the GitHub repository by providing the URL where the **Jenkinsfile** is written in the Groovy script. On successful creation of the Jenkins pipeline job for Docker, build the job and verify the Console output.
+
+**Steps to Deploy the Docker Container with Jenkins Pipeline using GitHub repository are:**
+
 1.	Create a EC2 instance in AWS console and install the Jenkins.
 
     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/1.jpg)
@@ -24,17 +26,17 @@ Steps to Deploy the Docker Container with Jenkins Pipeline using GitHub reposito
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/3b.jpg)
  
 
-    c.	Provide the permission to the docker.sock file and restart the Docker.
+    c.	Provide the permission to the **docker.sock** file and restart the Docker.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/3c.jpg)
  
 
 4.	Install Docker Pipeline plugin on the Linux instance.
-    a.	Navigate to Manage Jenkins and select Manage Plugins under System Configuration as shown below.
+    a.	Navigate to **Manage Jenkins** and select **Manage Plugins** under System Configuration as shown below.
        
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/4a.jpg)
 
-    b.	Select Available and search for Docker Pipeline plugin. Select the check box of the Docker Pipeline plugin and click Install without restart.
+    b.	Select **Available** and search for **Docker Pipeline plugin**. Select the check box of the Docker Pipeline plugin and click **Install without restart**.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/4b.jpg)
    
@@ -45,12 +47,12 @@ Steps to Deploy the Docker Container with Jenkins Pipeline using GitHub reposito
 
 
 5.	Create a Docker Pipeline Job on Jenkins instance using the GitHub repository.
-    a.	Open the GitHub repository were the required Jenkinsfile is present.
+    a.	Open the GitHub repository were the required **Jenkinsfile** is present.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/5a.jpg)
  
 
-    b.	Navigate to Code and copy the HTTPS link for the GitHub repository as given below.
+    b.	Navigate to **Code** and copy the **HTTPS** link for the GitHub repository as given below.
     
       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/5b.jpg)
  
