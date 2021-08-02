@@ -66,7 +66,7 @@ To deploy a Docker container with Jenkins, create a EC2 instances and install th
 
     d.	Provide the name for the job, select Pipeline and click OK.
     
-      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/5d.jpg)
+      ![Alt text](https://github.com/Protontech-1803/devops/blob/master/DockerContainer_JenkinsPipeline_using_GitHub/JPG_images/5db.jpg)
  
 
     e.	Navigate to Pipeline and select Pipeline Script from SCM under Definition. Under SCM select Git and paste the Git Repository URL of the GitHub as shown below.
